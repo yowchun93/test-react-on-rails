@@ -15,4 +15,8 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+// Loading CSS in application.js, why??
+//  https://github.com/rails/webpacker/issues/2059
+
+require("stylesheets/application.scss")
 console.log('Hello World from Webpacker')
